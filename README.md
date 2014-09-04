@@ -1,4 +1,4 @@
-# The Ping Project
+# IoT Lamp Wifi
 
 ## API
 
@@ -32,7 +32,7 @@ After making changes in local git repo, push to heroku with `git push heroku mas
 ### Development log
 
 ```
-mkdir the-ping-project
+mkdir iot-lamp-wifi
 # create all the required files
 
 # Create git repo and add files
@@ -40,7 +40,7 @@ git init
 git add .
 git commit -m "First commit"
 
-heroku apps:create --app the-ping-project
+heroku apps:create --app iot-lamp-wifi
 
 # Set timezone to India
 heroku config:add TZ='Asia/Kolkata'

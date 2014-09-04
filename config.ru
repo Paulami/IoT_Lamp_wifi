@@ -4,7 +4,7 @@ require 'open-uri'
 
 
 class PingApp < Sinatra::Base
-  set :dweet_name, "akash-test"
+  set :dweet_name, "iot-lamp-wifi-test"
 
   before do
     content_type 'text/plain'
